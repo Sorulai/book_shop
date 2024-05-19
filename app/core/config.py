@@ -20,6 +20,7 @@ class DBSettings(BaseSettings):
     SECRET_KEY: str
 
 
+
 class Settings(BaseSettings):
     db: DBSettings = DBSettings()
 
